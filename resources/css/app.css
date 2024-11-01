@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-image: url(/public/image/wall.jpg);
+    padding: 10px;
+    height: 100vh;
+}
+#tete{
+    color: azure;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    height: 30px;
+    margin-bottom: 10px;
+   }
+   h2{
+    color: azure;
+    font-size: x-large;
+    margin-left: 15px;
+    display: inline-block;
+
+   }
+   .logo{
+    background-image: url(/public/image/logo.png);
+    background-size: cover;
+    background-position: center;
+    height: 90px;
+    width: 150px;
+    margin: auto;
+
+   
+   }
+   #photo1{
+    background-image: url(/public/image/photo2.jpg);
+   }
+   #photo2{
+    background-image: url(/public/image/photo1.jpg);
+   }
+   #photo3{
+    background-image: url(/public/image/photo3.jpg);
+   }
+   #photo4{
+    background-image: url(/public/image/photo4.jpg);
+   }
+   #photo5{
+    background-image: url(/public/image/photo5.jpg);
+   }
+   .exgym{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+   }
+.gym{
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.paragraphe{
+    font-size: larger;
+    color: azure;
+    text-align: center;
+}
+.cours{
+    background-image: url(/public/image/cours.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listcours{
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+ul{
+    list-style-type: square;
+}
+#annuel{
+     background-image: linear-gradient(blue,white,black);
+}
+#seance{
+    background-image: linear-gradient(rgb(0, 255, 225),white,black);
+}
+#seances{
+    background-image: linear-gradient(yellow,white,black);
+}
+#mensuel{
+    background-image: linear-gradient(orange,white,black);
+}
+#mensuelcs{
+    background-image: linear-gradient(red,white,black);
+}
+.tarif{
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    align-items: center;
+}
+.tarifs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+h3{
+    color: azure;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
+.nosabn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.legales{
+    background-color: rgba(95, 158, 160, 0.277);
+    max-width: 900px;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+    color: azure;
+}
+#map {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+input,
+textarea {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#submit {
+    background-color: red;
+    width: 25%;
+    height: 30px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.envoyer {
+    text-align: center;
+}
+
+textarea {
+    height: 100px;
+}
+label{
+    color: azure;
+    font-size: large;
+}
+.tel{
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+}
+.form{
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+}
+footer{
+    background-color: red;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    height: 40px;
+}
+h1{
+    color: azure;
+    font-size: x-large;
+    font-weight: bolder;
+}

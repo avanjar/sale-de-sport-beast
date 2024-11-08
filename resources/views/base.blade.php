@@ -15,14 +15,17 @@
         <div><a href="{{ route('cours.index') }}">Cours</a></div>
         <div><a href="{{ route('contact.index') }}">Contact</a></div>
         <div><a href="{{ route('tarifs.index') }}">Tarif</a></div>
-        <div><a href="{{ route('mentions-legales.index') }}">Mentions légales</a></div>
+        <div><a href="{{ route('mentions-legales.index') }}">Mentions légales</a>
+        </div>
     </div></header>
     
     <div class="logo"></div>
     
  @yield('content')   
  <footer>
-    <div><a href="{{ route('mentions-legales.index') }}">Voir les Mentions légales</a></div>
+    <div>
+        <a href="{{ route('mentions-legales.index') }}">Voir les Mentions légales</a>
+    </div>
 </footer>
 </body>
 </html>

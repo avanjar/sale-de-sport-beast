@@ -10,5 +10,6 @@ use App\Http\Controllers\MentionsLegalesController;
 Route::get('/', [AccueilController::class, 'index'])->name('accueil.index');
 Route::get('/cours', [CoursController::class, 'index'])->name('cours.index');
 Route::get('/tarifs', [TarifsController::class,'index'])->name('tarifs.index');
-Route::get('/contact',[ContactController::class,'index'])->name('contact.index');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');
+Route::post('/contact', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/mentions-legales', [MentionsLegalesController::class, 'index'])->name('mentions-legales.index');

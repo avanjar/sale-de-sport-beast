@@ -25,8 +25,8 @@ body{
     background-image: url(/public/image/logo.png);
     background-size: cover;
     background-position: center;
-    height: 90px;
-    width: 150px;
+    height: 130px;
+    width: 180px;
     margin: auto;
 
    
@@ -59,6 +59,11 @@ body{
     border-radius: 20px;
     margin-bottom: 50px;
 }
+.gym:hover {
+    transform: scale(1.05); /* Agrandit légèrement l'image */
+    transition: transform 0.3s ease-in-out; /* Animation fluide */
+}
+
 .paragraphe{
     font-size: larger;
     color: azure;
@@ -100,6 +105,11 @@ ul{
 #mensuelcs{
     background-image: linear-gradient(red,white,black);
 }
+.tarif:hover {
+    background-color: darkred;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .tarif{
     width: 250px;
     height: 350px;
@@ -110,6 +120,7 @@ ul{
     font-size: x-large;
     font-weight: bold;
     align-items: center;
+    
 }
 .tarifs{
     display: flex;
